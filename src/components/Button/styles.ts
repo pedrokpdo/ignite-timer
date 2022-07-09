@@ -20,8 +20,8 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
     border: 0;
     margin: 8px;
 
-    background-color: ${({theme}) => theme.primary};
-    color: ${({theme}) => theme.white}
+    background-color: ${({theme}) => theme.secondary};
+    color: ${({theme}) => theme.primary}
     
 
 /*     ${({ variant }) => `background-color: ${buttonVariants[variant]}`} */
